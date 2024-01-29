@@ -5,6 +5,7 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 @Entity
+@ToString
 @Getter
 @Setter
 @Table(name = "cars")

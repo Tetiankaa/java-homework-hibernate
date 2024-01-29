@@ -6,6 +6,7 @@ import lombok.experimental.FieldDefaults;
 
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @Table(name = "driver_license")
 @FieldDefaults(level = AccessLevel.PRIVATE)
